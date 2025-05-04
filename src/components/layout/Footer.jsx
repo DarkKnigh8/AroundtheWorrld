@@ -14,7 +14,7 @@ function Footer() {
               className="text-xl font-bold flex items-center text-neutral-900 dark:text-white no-underline"
             >
               <span className="text-primary-500 mr-1">🌎</span>
-              Arounf the World<span className="text-primary-500">Explorer</span>
+              Around the World<span className="text-primary-500">Explorer</span>
             </Link>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">
               Explore the world, get informed, one country at a time.
@@ -26,17 +26,17 @@ function Footer() {
               Data provided by <a href="https://restcountries.com" target="_blank" rel="noopener noreferrer" className="text-primary-500 hover:text-primary-600">REST Countries API</a>
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">
-              &copy; {currentYear} AroundtheWorldExplorer. All rights reserved.
+              &copy; {currentYear}AroundtheWorldExplorer. All rights reserved.
             </p>
             <div className="mt-3 flex items-center">
-              <a
+              {/* <a
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-600 dark:text-neutral-400 hover:text-primary-500 dark:hover:text-primary-400 mr-4"
               >
                 <RiGithubFill className="text-xl" />
-              </a>
+              </a> */}
               {/* <span className="text-sm text-neutral-600 dark:text-neutral-400">
                 Made with <RiHeartFill className="inline text-accent-500" /> in 2025
               </span> */}

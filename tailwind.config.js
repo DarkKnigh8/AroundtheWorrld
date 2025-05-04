@@ -9,28 +9,28 @@ export default {
     extend: {
       colors: {
         primary: {
-          50:  '#1a1a1a',
-          100: '#1f1f1f',
-          200: '#232323',
-          300: '#2b2b2b',
-          400: '#333333',
-          500: '#0A0A0A',  // near-black base
-          600: '#000000',  // true black
-          700: '#000000',  // same black for deep tones
-          800: '#000000',
-          900: '#000000'
+          50:  '#f5f5f5',  // lightest gray
+          100: '#e0e0e0',  // very light gray
+          200: '#c2c2c2',  // light gray
+          300: '#a3a3a3',  // medium-light gray
+          400: '#858585',  // mid gray
+          500: '#4f4f4f',  // dark gray
+          600: '#2e2e2e',  // very dark gray
+          700: '#1c1c1c',  // near black
+          800: '#121212',  // UI black
+          900: '#000000'   // true black
         },
         secondary: {
-          50: '#EDEDFB',
-          100: '#DCDCF7',
-          200: '#B8B8EF',
-          300: '#9595E7',
-          400: '#7171DF',
-          500: '#5E5CE6', // Secondary indigo
-          600: '#4845C7',
-          700: '#363399',
-          800: '#24236B',
-          900: '#121236',
+          50:  '#f4f4f5',  // very light gray
+          100: '#e4e4e7',  // light neutral gray
+          200: '#d4d4d8',  // soft gray
+          300: '#a1a1aa',  // mid gray
+          400: '#71717a',  // darker gray
+          500: '#52525b',  // deep gray
+          600: '#3f3f46',  // charcoal gray
+          700: '#27272a',  // near black
+          800: '#18181b',  // dark black-ish
+          900: '#0f0f11'   // almost pure black
         },
         accent: {
           50: '#FFE5E5',
